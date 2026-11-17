@@ -1,10 +1,10 @@
 using HarmonyLib;
 using MiraAPI.Utilities.Assets;
-using TouExtensionExample.Assets;
+using Eclipse.Assets;
 using TownOfUs.Assets;
 using UnityEngine;
 
-namespace TouExtensionExample.Patches;
+namespace Eclipse.Patches;
 
 [HarmonyPatch]
 public static class LogoPatch

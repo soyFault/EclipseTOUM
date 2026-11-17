@@ -9,9 +9,9 @@ using MiraAPI.Translation;
 using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
 using Reactor.Utilities;
-using TouExtensionExample.Assets;
-using TouExtensionExample.Buttons.Neutral;
-using TouExtensionExample.Options.Roles.Neutral;
+using Eclipse.Assets;
+using Eclipse.Buttons.Neutral;
+using Eclipse.Options.Roles.Neutral;
 using TownOfUs;
 using TownOfUs.Assets;
 using TownOfUs.Extensions;
@@ -23,7 +23,7 @@ using TownOfUs.Roles.Neutral;
 using TownOfUs.Utilities;
 using UnityEngine;
 
-namespace TouExtensionExample.Roles.Neutral;
+namespace Eclipse.Roles.Neutral;
 
 public sealed class SentinelRole(IntPtr cppPtr)
     : NeutralRole(cppPtr), ITownOfUsRole, IWikiDiscoverable, IDoomable, ICrewVariant
@@ -62,7 +62,7 @@ public sealed class SentinelRole(IntPtr cppPtr)
     {
         CanUseVent = OptionGroupSingleton<SentinelOptions>.Instance.CanVent,
         IntroSound = TouAudio.GlitchSound,
-        IconTmp = TmpSpriteUtils.CreateSpriteAsset(EclipseRoleIcons.Sentinel.LoadAsset(), "TouExample.Role.Neutral.Sentinel", 1.45f),
+        IconTmp = TmpSpriteUtils.CreateSpriteAsset(EclipseRoleIcons.Sentinel.LoadAsset(), "Eclipse.Role.Neutral.Sentinel", 1.45f),
         Icon = EclipseRoleIcons.Sentinel,
         GhostRole = (RoleTypes)RoleId.Get<NeutralGhostRole>()
     };

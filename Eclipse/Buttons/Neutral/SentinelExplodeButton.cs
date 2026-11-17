@@ -5,10 +5,10 @@ using MiraAPI.Keybinds;
 using MiraAPI.Translation;
 using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
-using TouExtensionExample.Assets;
-using TouExtensionExample.Modules;
-using TouExtensionExample.Options.Roles.Neutral;
-using TouExtensionExample.Roles.Neutral;
+using Eclipse.Assets;
+using Eclipse.Modules;
+using Eclipse.Options.Roles.Neutral;
+using Eclipse.Roles.Neutral;
 using TownOfUs.Assets;
 using TownOfUs.Buttons;
 using TownOfUs.Buttons.Neutral;
@@ -18,7 +18,7 @@ using TownOfUs.Networking;
 using TownOfUs.Utilities;
 using UnityEngine;
 
-namespace TouExtensionExample.Buttons.Neutral;
+namespace Eclipse.Buttons.Neutral;
 
 public sealed class SentinelExplodeButton : TownOfUsRoleButton<SentinelRole>
 {

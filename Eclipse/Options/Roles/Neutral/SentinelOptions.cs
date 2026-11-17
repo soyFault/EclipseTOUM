@@ -3,10 +3,10 @@ using MiraAPI.GameOptions.Attributes;
 using MiraAPI.GameOptions.OptionTypes;
 using MiraAPI.Translation;
 using MiraAPI.Utilities;
-using TouExtensionExample.Roles.Neutral;
+using Eclipse.Roles.Neutral;
 using TownOfUs.Modules.Localization;
 
-namespace TouExtensionExample.Options.Roles.Neutral;
+namespace Eclipse.Options.Roles.Neutral;
 
 public sealed class SentinelOptions : AbstractOptionGroup<SentinelRole>
 {

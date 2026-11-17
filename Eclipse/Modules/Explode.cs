@@ -1,11 +1,11 @@
 using MiraAPI.GameOptions;
-using TouExtensionExample.Options.Roles.Neutral;
+using Eclipse.Options.Roles.Neutral;
 using TownOfUs.Assets;
 using TownOfUs.Utilities;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace TouExtensionExample.Modules;
+namespace Eclipse.Modules;
 
 public sealed class Explode
 {

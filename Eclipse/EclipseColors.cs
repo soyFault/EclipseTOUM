@@ -2,7 +2,7 @@
 using TownOfUs;
 using UnityEngine;
 
-namespace TouExtensionExample;
+namespace Eclipse;
 
 public static class EclipseColors
 {

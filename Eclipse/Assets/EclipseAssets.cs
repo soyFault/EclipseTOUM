@@ -1,7 +1,7 @@
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 
-namespace TouExtensionExample.Assets;
+namespace Eclipse.Assets;
 
 public static class EclipseAssets
 {

@@ -1,7 +1,7 @@
 ﻿using MiraAPI.Colors;
 using UnityEngine;
 
-namespace TouExtensionExample;
+namespace Eclipse;
 
 [RegisterCustomColors]
 public static class EclipsePlayerColors

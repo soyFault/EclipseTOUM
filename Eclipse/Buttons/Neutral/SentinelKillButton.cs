@@ -4,16 +4,16 @@ using MiraAPI.Keybinds;
 using MiraAPI.Networking;
 using MiraAPI.Utilities.Assets;
 using Reactor.Utilities;
-using TouExtensionExample.Assets;
-using TouExtensionExample.Options.Roles.Neutral;
-using TouExtensionExample.Roles.Neutral;
+using Eclipse.Assets;
+using Eclipse.Options.Roles.Neutral;
+using Eclipse.Roles.Neutral;
 using TownOfUs.Assets;
 using TownOfUs.Buttons;
 using TownOfUs.Options.Modifiers.Alliance;
 using TownOfUs.Utilities;
 using UnityEngine;
 
-namespace TouExtensionExample.Buttons.Neutral;
+namespace Eclipse.Buttons.Neutral;
 
 public sealed class SentinelKillButton : TownOfUsKillRoleButton<SentinelRole, PlayerControl>, IDiseaseableButton,
     IKillButton

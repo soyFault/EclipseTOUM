@@ -12,7 +12,7 @@ using Reactor.Networking.Attributes;
 using Reactor.Utilities;
 using TownOfUs;
 
-namespace TouExtensionExample;
+namespace Eclipse;
 
 [BepInAutoPlugin("fault.eclipse", "Eclipse")]
 [BepInProcess("Among Us.exe")]
