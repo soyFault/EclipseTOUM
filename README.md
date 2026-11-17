@@ -4,7 +4,7 @@
 -----------------------
 
 <div align="center">
-  <img src="./TouExtensionExample/Resources/ExampleBanner.png" alt="TOU Mira Example Mod"/>
+  <img src="./Eclipse/Resources/ExampleBanner.png" alt="TOU Mira Example Mod"/>
   <p>ECLIPSE: Fault's TOUM Expansion</p>
 </div>
 <br/>
