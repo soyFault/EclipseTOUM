@@ -30,7 +30,7 @@ public sealed class SentinelRole(IntPtr cppPtr)
 {
     public RoleBehaviour CrewVariant => RoleManager.Instance.GetRole((RoleTypes)RoleId.Get<TrapperRole>());
     public DoomableType DoomHintType => DoomableType.Relentless;
-    public string IdPrefix => "TouExtensionExample.Role";
+    public string IdPrefix => "Eclipse.Role";
     public string IdPart => "Sentinel";
 
     public string GetAdvancedDescription()
@@ -49,12 +49,12 @@ public sealed class SentinelRole(IntPtr cppPtr)
             {
                 new(MiraLocaleManager.Get($"{IdPrefix}.Role.{IdPart}.Explode", "Explode"),
                     MiraLocaleManager.Get($"{IdPrefix}.Role.{IdPart}Explode.WikiDescription"),
-                    ExampleNeutAssets.SentinelExplodeSprite),
+                    EclipseNeutAssets.SentinelExplodeSprite),
             };
         }
     }
 
-    public Color RoleColor => TouExampleColors.Sentinel;
+    public Color RoleColor => EclipseColors.Sentinel;
     public ModdedRoleTeams Team => ModdedRoleTeams.Custom;
     public RoleAlignment RoleAlignment => RoleAlignment.NeutralKilling;
 
@@ -62,8 +62,8 @@ public sealed class SentinelRole(IntPtr cppPtr)
     {
         CanUseVent = OptionGroupSingleton<SentinelOptions>.Instance.CanVent,
         IntroSound = TouAudio.GlitchSound,
-        IconTmp = TmpSpriteUtils.CreateSpriteAsset(ExampleRoleIcons.Sentinel.LoadAsset(), "TouExample.Role.Neutral.Sentinel", 1.45f),
-        Icon = ExampleRoleIcons.Sentinel,
+        IconTmp = TmpSpriteUtils.CreateSpriteAsset(EclipseRoleIcons.Sentinel.LoadAsset(), "TouExample.Role.Neutral.Sentinel", 1.45f),
+        Icon = EclipseRoleIcons.Sentinel,
         GhostRole = (RoleTypes)RoleId.Get<NeutralGhostRole>()
     };
 
@@ -96,8 +96,8 @@ public sealed class SentinelRole(IntPtr cppPtr)
         if (Player.AmOwner)
         {
             OffsetButtons();
-            HudManager.Instance.ImpostorVentButton.graphic.sprite = ExampleNeutAssets.SentinelVentSprite.LoadAsset();
-            HudManager.Instance.ImpostorVentButton.buttonLabelText.SetOutlineColor(TouExampleColors.Sentinel);
+            HudManager.Instance.ImpostorVentButton.graphic.sprite = EclipseNeutAssets.SentinelVentSprite.LoadAsset();
+            HudManager.Instance.ImpostorVentButton.buttonLabelText.SetOutlineColor(EclipseColors.Sentinel);
         }
     }
 

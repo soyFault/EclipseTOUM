@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace TouExtensionExample;
 
-public static class TouExampleColors
+public static class EclipseColors
 {
     // Crew Colors
     public static Color Chameleon => TownOfUsColors.UseBasic ? Palette.CrewmateBlue : new Color32(81, 180, 154, 255);

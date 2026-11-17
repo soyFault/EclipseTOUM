@@ -3,11 +3,11 @@ using UnityEngine;
 
 namespace TouExtensionExample.Assets;
 
-public static class ExampleRoleIcons
+public static class EclipseRoleIcons
 {
     // THIS FILE SHOULD ONLY HOLD ROLE ICONS
 
-    private const string ShortPath = "TouExtensionExample.Resources";
+    private const string ShortPath = "Eclipse.Resources";
 
     // Neutrals
     public static LoadableAsset<Sprite> Sentinel { get; } = new LoadableResourceAsset($"{ShortPath}.RoleIcons.Sentinel.png", 200);

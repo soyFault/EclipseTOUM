@@ -20,9 +20,9 @@ public sealed class SentinelKillButton : TownOfUsKillRoleButton<SentinelRole, Pl
 {
     public override string Name => TranslationController.Instance.GetStringWithDefault(StringNames.KillLabel, "Kill");
     public override BaseKeybind Keybind => Keybinds.PrimaryAction;
-    public override Color TextOutlineColor => TouExampleColors.Sentinel;
+    public override Color TextOutlineColor => EclipseColors.Sentinel;
     public override float Cooldown => Math.Clamp(OptionGroupSingleton<SentinelOptions>.Instance.KillCooldown + MapCooldown, 5f, 120f);
-    public override LoadableAsset<Sprite> Sprite => ExampleNeutAssets.SentinelKillSprite;
+    public override LoadableAsset<Sprite> Sprite => EclipseNeutAssets.SentinelKillSprite;
 
     public override void CreateButton(Transform parent)
     {

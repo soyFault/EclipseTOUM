@@ -14,13 +14,13 @@ using TownOfUs;
 
 namespace TouExtensionExample;
 
-[BepInAutoPlugin("auavengers.tou.extensionexample", "Tou Extension Example")]
+[BepInAutoPlugin("fault.eclipse", "Eclipse")]
 [BepInProcess("Among Us.exe")]
 [BepInDependency(ReactorPlugin.Id)]
 [BepInDependency(MiraApiPlugin.Id)]
 [BepInDependency(TownOfUsPlugin.Id)]
 [ReactorModFlags(ModFlags.RequireOnAllClients)]
-public partial class TouExtensionExamplePlugin : BasePlugin, IMiraPlugin
+public partial class EclipsePlugin : BasePlugin, IMiraPlugin
 {
     /// <summary>
     ///     Gets the specified Culture for string manipulations.
@@ -28,7 +28,7 @@ public partial class TouExtensionExamplePlugin : BasePlugin, IMiraPlugin
     public static CultureInfo Culture => TownOfUs.TownOfUsPlugin.Culture;
 
     /// <inheritdoc />
-    public string OptionsTitleText => "TOU Example";
+    public string OptionsTitleText => "Eclipse";
 
     /// <summary>
     ///     Determines if the current build is a dev build or not. This will change certain visuals as well as always grab news locally to be up to date.
@@ -45,8 +45,8 @@ public partial class TouExtensionExamplePlugin : BasePlugin, IMiraPlugin
 
     public override void Load()
     {
-        ReactorCredits.Register("Tou Extension Example", Version, IsDevBuild, ReactorCredits.AlwaysShow);
-        MiraLocaleManager.Register("auavengers.tou.extensionexample");
+        ReactorCredits.Register("Eclipse", Version, IsDevBuild, ReactorCredits.AlwaysShow);
+        MiraLocaleManager.Register("fault.eclipse");
 
         Harmony.PatchAll();
     }

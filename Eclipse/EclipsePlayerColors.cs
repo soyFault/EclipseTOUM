@@ -4,7 +4,7 @@ using UnityEngine;
 namespace TouExtensionExample;
 
 [RegisterCustomColors]
-public static class TouExamplePlayerColors
+public static class EclipsePlayerColors
 {
     public static CustomColor Spiderman { get; } = new("Spiderman",
         new Color32(255, 0, 0, byte.MaxValue),
