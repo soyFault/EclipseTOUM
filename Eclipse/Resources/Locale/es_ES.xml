@@ -1,4 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <!-- Textos Generales -->
+    <!-- Colores de Jugador -->
+    <!-- Causas de Muerte -->
+    <string name="DiedToMarksman">Snipeado</string>
+
+    <!-- Roles -->
+
+    <!-- Tirador - Impostor Superior -->
+    <string name="Eclipse.Role.Marksman">Tirador</string>
+    <string name="Eclipse.Role.Marksman.IntroBlurb">Prepara, Apunta, Dispara...</string>
+    <string name="Eclipse.Role.Marksman.MedDescription">Carga tu arma y dispárale a otros jugadores remotamente.</string>
+    <string name="Eclipse.Role.Marksman.TabDescription">Mata jugadores remotamente con tu francotirador,
+        pero ten cuidado que no te vean.</string>
+    <!-- Tirador Wiki -->
+    <string name="Eclipse.Role.Marksman.WikiDescription">El Tirador es un Impostor Superior que puede matar jugadores remotamente alejando la cámara, pero emite un potente sonido que todos pueden escuchar.</string>
+    <string name="Eclipse.Role.Marksman.Reload">Recargar</string>
+    <string name="Eclipse.Role.Marksman.Shoot">Disparar</string>
+    <string name="Eclipse.Role.Marksman.Reload.WikiDescription">Carga tu rifle con una bala</string>
+    <string name="Eclipse.Role.Marksman.Shoot.WikiDescription">Dispárale a un jugador dentro de tu rango de visión expandido.</string>
+    <!-- Opciones del Tirador -->
+    <string name="Eclipse.Option.Marksman.ReloadCd">Tiempo para recargar</string>
+    <string name="Eclipse.Option.Marksman.ShootCd">Recarga de Disparo</string>
+    <string name="Eclipse.Option.Marksman.ZoomRadius">Radio de Zoom</string>
+    <string name="Eclipse.Option.Marksman.CanVent">Puede usar Ductos</string>
+    <string name="Eclipse.Option.Marksman.ImpostorVision">Tiene Visión de Impostor</string>
+
+
+    <!-- Modificadores -->
+
+    <!-- Otros -->
 
 </resources>

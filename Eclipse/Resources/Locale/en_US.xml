@@ -1,25 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+<!-- General Strings -->
     <!-- Player Colors -->
-    <string name="PlayerColorSpiderman">Spiderman</string>
-    <string name="PlayerColorSunburn">Sunburn</string>
     <!-- Cause of Deaths -->
-    <string name="DiedToSentinel">Terminated</string>
-    <string name="DiedToSentinelExplosion">Disintegrated</string>
-    <!-- Sentinel - Neutral Killing -->
-    <string name="Eclipse.Role.Sentinel">Sentinel</string>
-    <string name="Eclipse.Role.Sentinel.IntroBlurb">Eliminate those who stand in your path.</string>
-    <string name="Eclipse.Role.Sentinel.MedDescription">Eliminate everyone else in your way.</string>
-    <string name="Eclipse.Role.Sentinel.TabDescription">Kill players by using your dope abilities!
-Preferably, explode [b]only[/b] in a secluded area.</string>
-    <!-- Sentinel Wiki -->
-    <string name="Eclipse.Role.Sentinel.WikiDescription">The Sentinel is a Neutral Killing role that can explode themselves to kill anyone nearby. They may also kill normally, but where's the fun in that?</string>
-    <string name="Eclipse.Role.Sentinel.Explode">Explode</string>
-    <string name="Eclipse.Role.Sentinel.ExplodeWikiDescription">Explode all players nearby.</string>
-    <!-- Sentinel Options -->
-    <string name="ExampleOptionSentinelKillCooldown">Kill Cooldown</string>
-    <string name="ExampleOptionSentinelExplodeCooldown">Explode Cooldown</string>
-    <string name="ExampleOptionSentinelExplosionRadius">Explosion Radius</string>
-    <string name="ExampleOptionSentinelCanVent">Sentinel Can Vent</string>
-    <string name="ExampleOptionSentinelImpostorVision">Sentinel Has Impostor Vision</string>
+    <string name="DiedToMarksman">Sniped</string>
+    
+<!-- Roles -->
+    
+    <!-- Marksman - Impostor Power -->
+    <string name="Eclipse.Role.Marksman">Marksman</string>
+    <string name="Eclipse.Role.Marksman.IntroBlurb">Gotta reload...</string>
+    <string name="Eclipse.Role.Marksman.MedDescription">Reload your weapon and shoot people remotely</string>
+    <string name="Eclipse.Role.Marksman.TabDescription">Kill players remotely with your sniper rifle,
+but be careful not to be seen</string>
+    <!-- Marksman Wiki -->
+    <string name="Eclipse.Role.Marksman.WikiDescription">The Marksman is an Impostor Power role that can kill players remotely by zooming out of the map, but emits a powerful sound that anyone can hear.</string>
+    <string name="Eclipse.Role.Marksman.Reload">Reload</string>
+    <string name="Eclipse.Role.Marksman.Shoot">Shoot</string>
+    <string name="Eclipse.Role.Marksman.Reload.WikiDescription">Load your rifle with one bullet</string>
+    <string name="Eclipse.Role.Marksman.Shoot.WikiDescription">Shoot a player within your zoomed kill radius</string>
+    <!-- Marksman Options -->
+    <string name="Eclipse.Option.Marksman.ReloadCd">Reload Cooldown</string>
+    <string name="Eclipse.Option.Marksman.ShootCd">Shoot Cooldown</string>
+    <string name="Eclipse.Option.Marksman.ZoomRadius">Zoom Radius</string>
+    <string name="Eclipse.Option.Marksman.CanVent">Can Vent</string>
+    <string name="Eclipse.Option.Marksman.ImpostorVision">Has Impostor Vision</string>
+
+    
+<!-- Modifiers -->
+    
+<!-- Other -->
+    
 </resources>

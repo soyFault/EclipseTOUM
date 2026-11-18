@@ -10,5 +10,7 @@ public static class EclipseRoleIcons
     private const string ShortPath = "Eclipse.Resources";
 
     // Neutrals
-    public static LoadableAsset<Sprite> Sentinel { get; } = new LoadableResourceAsset($"{ShortPath}.RoleIcons.Sentinel.png", 200);
+    
+    // Impostors
+    public static LoadableAsset<Sprite> Marksman { get; } = new LoadableResourceAsset($"{ShortPath}.RoleIcons.Sentinel.png", 200);
 }

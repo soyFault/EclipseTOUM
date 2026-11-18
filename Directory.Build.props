@@ -6,16 +6,16 @@
         <Nullable>enable</Nullable>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <ImplicitUsings>true</ImplicitUsings>
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
 
         <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
 
         <VersionPrefix>0.1.0</VersionPrefix>
         <VersionSuffix>dev</VersionSuffix>
 
-        <Authors>Atony</Authors>
-        <Company>Among Us Avengers</Company>
-        <RepositoryUrl>https://github.com/AU-Avengers/TouExtensionExample</RepositoryUrl>
+        <Authors>Fault</Authors>
+        <Company>Eclipse Team</Company>
+        <RepositoryUrl>https://github.com/soyFault/EclipseTOUM</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
 
         <!-- SourceLink -->
