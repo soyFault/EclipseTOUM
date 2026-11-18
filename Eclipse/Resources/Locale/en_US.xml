@@ -28,7 +28,11 @@ but be careful not to be seen</string>
 
     
 <!-- Modifiers -->
-    
+    <string name="Eclipse.Options.UniversalModifiers">Modificadores Universales</string>
+<!-- Clumsy - Game Universal-->
+    <string name="Eclipse.Modifier.Clumsy">Clumsy</string>
+    <string name="Eclipse.Options.UniversalModifiers.Clumsy.Amount">Clumsy Amount</string>
+    <string name="Eclipse.Options.UniversalModifiers.Clumsy.Chance">Clumsy Chance</string>
 <!-- Other -->
     
 </resources>
